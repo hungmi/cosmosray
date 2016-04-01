@@ -1,0 +1,16 @@
+.nojs {text-align: center; margin: 0 auto 2em; background: #fff000; padding: 15px;}
+
+.header, .footer, .page-head h2, .category-list, .page-number, .post-list, .content {opacity: 1;}
+.maintext h2, .maintext p, .maintext h2 span, .maintext a {opacity: 1;}
+.loader {/*display: none;*/}
+.mainvisual {background: #004286;}
+.header {z-index: 100;}
+.header .inner {background: #fff;}
+
+.all .member_image .rect, .all .member_image .part { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); opacity: 1; }
+.all .member_image-logo { -webkit-transform: translate3d(0, 0, 0) rotate(-45deg); transform: translate3d(0, 0, 0) rotate(-45deg); opacity: 1; }
+.item {display: inline-block; width: 200px; height: 200px; background-size: cover;}
+
+@media screen and (max-width: 768px) {
+.header .inner {background: transparent;}
+}

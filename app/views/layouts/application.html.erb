@@ -1,14 +1,414 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Cosmos-ray</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
+<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+<%= csrf_meta_tags %>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no">
+<!-- links -->
+<!-- <link href="wp/wp-content/themes/ekkyo/favicon.ico" rel="shortcut icon" type="image/x-icon" /> -->
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700%7CRoboto:400,700' rel='stylesheet' type='text/css'>
+
+<!-- close.links -->
+<!--
+<link rel="apple-touch-icon" sizes="57x57" href="wp/wp-content/themes/ekkyo/common/favicons/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="wp/wp-content/themes/ekkyo/common/favicons/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="wp/wp-content/themes/ekkyo/common/favicons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="wp/wp-content/themes/ekkyo/common/favicons/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="wp/wp-content/themes/ekkyo/common/favicons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="wp/wp-content/themes/ekkyo/common/favicons/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="wp/wp-content/themes/ekkyo/common/favicons/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="wp/wp-content/themes/ekkyo/common/favicons/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="wp/wp-content/themes/ekkyo/common/favicons/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="wp/wp-content/themes/ekkyo/common/favicons/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="wp/wp-content/themes/ekkyo/common/favicons/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="wp/wp-content/themes/ekkyo/common/favicons/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="wp/wp-content/themes/ekkyo/common/favicons/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="wp/wp-content/themes/ekkyo/common/favicons/favicon-16x16.png" sizes="16x16">
+-->
+<link rel="manifest" href="wp/wp-content/themes/ekkyo/common/favicons/manifest.json">
+<link rel="mask-icon" href="wp/wp-content/themes/ekkyo/common/favicons/safari-pinned-tab.svg" color="E85C57">
+<meta name="apple-mobile-web-app-title" content="Cosmos Ray">
+<meta name="application-name" content="Cosmos Ray">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-TileImage" content="http://crossborderleadership.org/wp/wp-content/themes/ekkyo/common/favicons/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+<!-- This site is optimized with the Yoast SEO plugin v3.0.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Cosmos Ray | 宇光食品技術有限公司</title>
+<meta name="description" content="個人が起点となる新たな価値創造　越境し、共創へ"/>
+<meta name="robots" content="noodp"/>
+<link rel="canonical" href="index.html" />
+<!-- <meta property="og:locale" content="ja_JP" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="越境リーダーシップ | 個人が起点となる新たな価値創造　越境し、共創へ" />
+<meta property="og:description" content="個人が起点となる新たな価値創造　越境し、共創へ" />
+<meta property="og:url" content="http://crossborderleadership.org" />
+<meta property="og:site_name" content="越境リーダーシップ" />
+<meta property="og:image" content="http://crossborderleadership.org/wp/wp-content/uploads/2016/02/ogimage9.jpg" /> -->
+<script type='application/ld+json'>{"@context":"http:\/\/schema.org","@type":"WebSite","url":"http:\/\/crossborderleadership.org\/","name":"\u8d8a\u5883\u30ea\u30fc\u30c0\u30fc\u30b7\u30c3\u30d7","alternateName":"Cross-border Leadership","potentialAction":{"@type":"SearchAction","target":"http:\/\/crossborderleadership.org\/?s={search_term_string}","query-input":"required name=search_term_string"}}</script>
+<!-- / Yoast SEO plugin. -->
+    
+
 </head>
 <body>
 
-<%= yield %>
+<script>
+  // (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  // (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  // m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  // })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  // ga('create', 'UA-71654628-1', 'auto');
+  // ga('send', 'pageview');
+
+</script>
+
+<!-- <div id="fb-root"></div> -->
+<script>
+// (function(d, s, id) {
+//   var js, fjs = d.getElementsByTagName(s)[0];
+//   if (d.getElementById(id)) return;
+//   js = d.createElement(s); js.id = id; js.async = true;
+//   js.src = "//connect.facebook.net/ja_JP/sdk.js#xfbml=1&version=v2.5&appId=141571615945438";
+//   fjs.parentNode.insertBefore(js, fjs);
+// }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<div class="all">
+
+<noscript>
+  <p class="nojs">javascript が無効になっているか、お使いのブラウザーでサポートされていません。このサイトが正常に動作するには、javascript が必要です。</p>
+</noscript>
+
+<div class="bg-rects">
+  <span class="rect rc1"><span></span></span>
+  <span class="rect rc2"><span></span></span>
+  <span class="rect rc3"><span></span></span>
+  <span class="rect rc4"><span></span></span>
+  <span class="rect rc5"><span></span></span>
+</div>
+
+<header>
+  <div class="header" class="cf">
+    <div class="inner cf">
+
+      <h1 class="logo"><a href="index.html"><span>宇光食品技術有限公司</span></a></h1>
+      <div class="header-body">
+        <ul class="header_nav">
+          <li class=""><a href="/">
+            <span class="ja">首頁</span><span class="en">TOP</span>
+          </a></li>
+          <li class=""><a href="#scroll_concept">
+            <span class="ja">公司理念</span><span class="en">CONCEPT</span>
+          </a></li>
+          <li class=""><a href="#scroll_magazine">
+            <span class="ja">記事</span><span class="en">MAGAZINE</span>
+          </a></li>
+          <li><a href="#scroll_contact">
+          <span class="ja">聯絡&諮詢 </span><span class="en">CONTACT</span>
+          </a></li>
+          <li><a href="about/index.html#contact">                    
+            </a></li>
+        </ul>
+        <ul class="header_sns">
+          <li><a href="https://www.facebook.com/jointwelltaiwan/timeline" target="_blank"><span class="icon icon-facebook hv"></span><span class="icon icon-facebook orig"></span></a></li>
+        </ul>
+      </div>
+      <div class="header-toggle">
+        <div class="inner">
+          <span class="ln1"></span><span class="ln2"></span><span class="ln3"></span>
+        </div>
+      </div>
+    </div><!-- .inner -->
+  </div><!-- .header -->
+</header>
+
+<!-- <div class="loader"></div> -->
+
+<div class="wrapper">
+
+  <div class="overlay"></div>
+
+
+
+  <div class="mainvisual-wrapper">
+    <div class="mainvisual">
+      <div class="hero-video">
+        <div id="bg-video"></div>
+      </div>
+    </div>
+    <div class="maintext">
+      <div class="inner">
+        <p>為大家的健康負起責任<br/>因為愛你如同家人</p>
+        <h2>宇光食品技術有限公司</h2>
+      </div>
+    </div>
+    <div class="line-wrap">
+      <span class="line ln1"></span>
+      <span class="line ln2"></span>
+    </div>
+
+    <div class="loader">
+      <div class="inner">
+        <svg class="loader-rect lr1" viewBox="0 0 298 298">
+          <line class="r-ln1" class="st0" x1="147.6" y1="2.6" x2="294" y2="149"/>
+          <line class="r-ln2" class="st0" x1="2.6" y1="150.4" x2="149" y2="4"/>
+          <line class="r-ln3" class="st0" x1="150.4" y1="295.4" x2="4" y2="149"/>
+          <line class="r-ln4" class="st0" x1="295.4" y1="147.6" x2="149" y2="294"/>
+        </svg>
+        <svg class="loader-rect lr2" viewBox="0 0 298 298">
+          <line class="r-ln1" class="st0" x1="147.6" y1="2.6" x2="294" y2="149"/>
+          <line class="r-ln2" class="st0" x1="2.6" y1="150.4" x2="149" y2="4"/>
+          <line class="r-ln3" class="st0" x1="150.4" y1="295.4" x2="4" y2="149"/>
+          <line class="r-ln4" class="st0" x1="295.4" y1="147.6" x2="149" y2="294"/>
+        </svg>
+        <%= image_tag "logo.svg", class:"loader-logo" %>
+        <!-- <img src="./img/logo.svg" alt="" class="loader-logo"> -->
+            </div>
+    </div>
+  </div>
+
+    <section>
+      <div class="home_section concept content cf" id="scroll_concept">
+        <div class="section-head">
+          <header>
+            <div class="centerspace top"><div class="inner"><h3>CONCEPT</h3></div></div>
+          </header>
+        </div>
+        <div class="section-body">
+          <p>全方位的發展，並以「有機認證、安全有效」之理念，我們從有機、營養食品及抗老化健康產品研發，至相關健康延伸之計畫，如社會潮流下所產生的特殊需求、健康諮詢、養生俱樂部等等，並為世界知名廠商OEM打造專門產品。</p>
+                <br>
+                <p>Jointwell觸角所及之廣，皆是致力提供你我更好的生活方式。從早期發展即已走入全球市場，開創階段從有250年的法國樂斯福公司子公司起步，跟隨全世界最優秀的酵母及食品添加原料集團，累積、開創高品質的營養產品經驗，除了曾獲國內優良食品獎，金牌獎殊榮外，1988年漢城奧運，本公司產品「壯士維營養素」更成為各國的選手指定食品。</p>
+                <br>
+                <p>我們的眼界不斷擴大，從1960年創業至今，逐步佈局世界各地，1977年於台灣紮根，成員從本地再散佈至上海、日本、馬來西亞、泰國、美國、英國、義大利、加拿大、澳洲……等國家，結合優秀的人才投入研發植物性產品與改良，從專家學者、醫生、藥劑師、營養師組成的專業團隊，運用科技發展具有健保需求與市場利基之純天然產品，以有機認證安全有效之理念，帶給消費者安心與健康的產品與美好的實際體驗。 </p>
+                <br>
+          <p>宇宙初始，「神創造天地，神說要有光就有了光，神看光是好的，並要發光在天空，普照在大地。」 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ───聖經 創世紀第一章</p>
+                            <br>
+                            <p>目前與台中大安藥局結盟,有專業藥師解決您的疑問,吃得安心又健康。
+                            <br>Cosmos Ray &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 台中大安藥局
+                            <br>電話： 04-22131990 &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; 地址:台中市東區練武路67號之1
+                            <br>客服： 0800-211991&nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;電話: 04-22125598</p>
+        </div>
+      </div><!-- .home_section -->
+    </section>
+    
+
+    <section>
+      <div class="home_section magazine" id="scroll_magazine">
+        <header>
+          <div class="centerspace top"><div class="inner"><h3>MAGAZINE</h3></div></div>
+        </header>
+
+            <div class="slider-wrapper">
+        <ul class="slider-magazine">
+          <li class="post">
+            <a href="https://youtu.be/WBK3svDVVmY" target="_blank" class="aj">
+                <div class="thumb">
+                <%= image_tag "ANTIOO1224_s.jpg", class: "thumbimg", alt: "安緹甌 專業醫用抗菌口罩", data: { lazy: asset_path("ANTIOO1224_s.jpg") } %>
+                <!-- <img class="thumbimg" src="./img/ANTIOO1224_s.jpg" data-lazy="./img/ANTIOO1224_s.jpg" alt="安緹甌 專業醫用抗菌口罩"> -->
+                <span class="new">NEW</span>              </div>
+              <div class="label">
+                <p class="date">2015.12.24</p>
+                <p class="title short">安緹甌 專業醫用抗菌口罩<br>強效抗菌防護、高科技奈米抗菌複合材質、防塵、抗菌、除臭三效一體...               </p>
+                <hr>
+              </div>
+            </a>
+            <div class="cats">
+              <span class="post_cat"><ul class="post-categories">
+  <li><a href="" rel="category tag">News</a></li></ul>
+              </span>
+              <span class="post_tags"><a href="" rel="tag">新聞</a></span>            </div>
+          </li>
+          <li class="post">
+            <a href="https://www.facebook.com/jointwelltaiwan/photos/pb.1641989632708245.-2207520000.1458890090./1665088593731682/?type=3&theater" target="_blank" class="aj">
+                            <div class="thumb">
+                <%= image_tag "new0101_s.jpg", class: "thumbimg", alt: "Jointwell 祝福大家新年快樂", data: { lazy: asset_path("new0101_s.jpg") } %>
+                <!-- <img class="thumbimg" src="./img/new0101_s.jpg" data-lazy="h./img/new0101_s.jpg" alt="Jointwell 祝福大家新年快樂"> -->
+                              </div>
+              <div class="label">
+                <p class="date">2016.01.01</p>
+                <p class="title short">2016 美好的開始，大家繼續加油                </p>
+                <hr>
+              </div>
+            </a>
+            <div class="cats">
+              <span class="post_cat"><ul class="post-categories">
+  <li><a href="" rel="category tag">活動</a></li></ul></span>
+                          </div>
+          </li>
+          <li class="post">
+            <a href="https://www.facebook.com/jointwelltaiwan/photos/pcb.1666969423543599/1666969370210271/?type=3&theater" target="_blank" class="aj">
+                            <div class="thumb">
+                <%= image_tag "citofu.jpg", class: "thumbimg", alt: "喜多福 原味植物奶 濃縮奶蛋白(全台唯一 無普林SGS認證)", data: { lazy: asset_path("citofu.jpg") } %>
+                <!-- <img class="thumbimg" src="./img/citofu.jpg" data-lazy="./img/citofu.jpg" alt="喜多福 原味植物奶 濃縮奶蛋白(全台唯一 無普林SGS認證)"> -->
+                              </div>
+              <div class="label">
+                <p class="date">2016.01.07</p>
+                <p class="title short">早上來一杯超營養的喜多福植物奶，讓您一整天精神超好有活力!!!</p>
+                <hr>
+              </div>
+            </a>
+            <div class="cats">
+              <span class="post_cat"><ul class="post-categories">
+  <li><a href="" rel="category tag">News</a></li></ul></span>
+              <span class="post_tags"><a href="" rel="tag">新聞</a></span>            </div>
+          </li>
+                    <li class="post">
+            <a href="https://www.facebook.com/jointwelltaiwan/photos/pcb.1688411494732725/1688408571399684/?type=3&theater" target="_blank" class="aj">
+                            <div class="thumb">
+                <%= image_tag "HCLO_s.jpg", class: "thumbimg", alt: "克諾敏 消毒抗菌液", data: { lazy: asset_path("HCLO_s.jpg") } %>
+                <!-- <img class="thumbimg" src="./img/HCLO_s.jpg" data-lazy="./img/HCLO_s.jpg" alt="克諾敏 消毒抗菌液"> -->
+                              </div>
+              <div class="label">
+                <p class="date">2016.03.16</p>
+                <p class="title short">克諾敏 消毒抗菌液, 家庭防護新幹線。
+                                <br>5-30秒減少99.99% 細菌、病毒，歡迎來電洽詢，免付費專線:0800-211991</p>
+                <hr>
+              </div>
+            </a>
+            <div class="cats">
+              <span class="post_cat"><ul class="post-categories">
+  <li><a href="" rel="category tag">News</a></li></ul></span>
+              <span class="post_tags"><a href="" rel="tag">新聞</a></span>            </div>
+          </li>
+          <li class="post">
+            <a href="https://www.facebook.com/jointwelltaiwan/photos/pb.1641989632708245.-2207520000.1459142415./1690843354489539/?type=3&theater" target="_blank" class="aj">
+                            <div class="thumb">
+                <%= image_tag "omepa-3.jpg", class: "thumbimg", alt: "新保邁魚油Omepa-3 新包裝即將上市", data: { lazy: asset_path("omepa-3.jpg") } %>
+                <!-- <img class="thumbimg" src="./img/omepa-3.jpg" data-lazy="./img/omepa-3.jpg" alt="新保邁魚油Omepa-3 新包裝即將上市"> -->
+                              </div>
+              <div class="label">
+                <p class="date">2016.03.22</p>
+                <p class="title short">新保邁魚油Omepa-3&nbsp; 能預防動脈硬化、中風和心臟病。魚油是高血壓、冠心病、腦中風、糖尿病、風濕性關節炎、癌症等疾病患者為首選保健品。               </p>
+                <hr>
+              </div>
+            </a>
+            <div class="cats">
+              <span class="post_cat"><ul class="post-categories">
+  <li><a href="" rel="category tag">News</a></li></ul></span>
+              <span class="post_tags"><a href="" rel="tag">新聞</a></span>            </div>
+          </li>
+          <li class="post">
+            <a href="https://www.facebook.com/jointwelltaiwan/photos/pb.1641989632708245.-2207520000.1459142415./1690843471156194/?type=3&theater" target="_blank" class="aj">
+                            <div class="thumb">
+                <%= image_tag "CoffeeMagazine.jpg", class: "thumbimg", alt: "與你分享這一刻", data: { lazy: asset_path("CoffeeMagazine.jpg") } %>
+                <!-- <img class="thumbimg" src="./img/CoffeeMagazine.jpg" data-lazy="./img/CoffeeMagazine.jpg" alt="與你分享這一刻"> -->
+                              </div>
+              <div class="label">
+                <p class="date">2016.03.22</p>
+                <p class="title short">與台中大安藥局結盟,有專業藥師解決您的疑問,吃得安心又健康。
+                                    <br>想知道詳情嗎？請撥打免費專線0800-211991               </p>
+                <hr>
+              </div>
+            </a>
+            <div class="cats">
+              <span class="post_cat"><ul class="post-categories">
+  <li><a href="" rel="category tag">採訪</a></li></ul></span>
+              <span class="post_tags"><a href="" rel="tag">企業</a></span>            </div>
+          </li>
+                </ul>
+        <div class="slideside-next"></div><div class="slideside-prev"></div>
+      </div>
+
+      <footer>
+        <div class="centerspace bottom"><div class="inner"><a href="https://www.facebook.com/jointwelltaiwan/?fref=ts" target="_blank" class="btn"><span>ALL MAGAZINE</span></a></div></div>
+      </footer>
+    </div><!-- .home_section -->
+    </section>
+
+            <section>
+      <div class="home_section concept content cf" id="scroll_contact">
+      <div class="home_section-body">
+          <header>
+            <div class="centerspace top"><div class="inner"><h3>CONTACT</h3></div></div>
+          </header>
+        </div>
+      </div><!-- .home_section -->
+    </section>
+    
+  <section>
+      <div class="contact_section content cf" id="contact">
+  <div class="section-body">
+    <dl class="cf">
+            
+      <dt>TEL</dt>
+      <dd><a href="tel:0800-211991"><span class="icon icon-phone"></span>0800-211991</a></dd>
+      <dt>MAIL</dt>
+      <dd><a href="mailto:Crossborder_Leadership@wlw.co.jp" title="發送郵件"><span class="icon icon-mail_outline"></span>cosmosrayservice@gmail.com</a></dd>
+      <dt>ADDRESS</dt>
+      <dd><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.8120233672203!2d120.69179408206884!3d24.143238771412438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693d4179af7a41%3A0x2909c2d67a86a4e2!2zNDAx5Y-w5Lit5biC5p2x5Y2A56aP5LuB6KGXMTLomZ8!5e0!3m2!1szh-TW!2stw!4v1457943509597" target="_blank"><span class="icon icon-location_on"></span><span class="map_address">台中市東區福仁街200巷8弄12號</span></a></dd>
+      <dt>SOCIAL</dt>
+      <dd><a href="https://www.facebook.com/jointwelltaiwan/timeline" target="_blank"><span class="icon icon-facebook"></span>Facebook</a></dd>
+    </dl>
+  </div>
+            
+       <div id="map"></div>
+</div>
+    </section>
+        
+
+<footer>
+  <div class="footer">
+          <div class="inner cf">
+                        
+        <a href="" class="gotop">
+          <div class="rect"><span class="icon icon-expand_less orig"></span><span class="icon icon-expand_less hv"></span></div><span>TOP</span>
+        </a>
+      </div><!-- .footer_inner -->
+        <div class="copyright">&copy;宇光食品技術有限公司</div>
+    <span class="line-ft ln1 ab"></span>
+    <span class="line-ft ln1"></span>
+  </div><!-- .footer -->
+</footer><!-- /footer -->
+
+</div><!-- .wrapper -->
+</div>
+
+<section>
+    <div class="intro-video">
+      <div class="intro-table"><div class="intro-cell">
+        <div class="intro-video-inner">
+          <div id="intro-video"></div>
+          <div class="icon icon-close"></div><div class="videomask"></div>
+        </div>
+      </div></div>
+      <div class="videomask"></div>
+      <div class="videoouter top"></div>
+      <div class="videoouter bottom"></div>
+    </div>
+</section>
+
+<!--[if lt IE 9]>
+<aside>
+  <div class="alert">
+    <div class="happybrows pc">
+      <p><img src="./img/logo.svg" alt="宇光食品技術有限公司" width="150"></p>
+      <p>このサイトはお使いのブラウザには対応しておりません。<br/>正常に表示するには最新のブラウザをインストールしてご覧ください。</p>
+      <ul>
+        <li><a href="http://www.google.com/chrome/" target="_blank"><span>Chrome</span></a></li>
+        <li><a href="http://www.firefox.com/" target="_blank"><span>Firefox</span></a></li>
+        <li><a href="http://windows.microsoft.com/ie" target="_blank"><span>IE 9 ~</span></a></li>
+        <li><a href="http://www.apple.com/safari/" target="_blank"><span>Safari</span></a></li>
+      </ul>
+    </div>
+  </div>
+</aside>
+<![endif]-->
+
+
+<!-- links -->
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js"></script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.async=true;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script>
+  // window.___gcfg = {lang: 'ja', parsetags: 'onload'};
+</script>
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+<!-- close.links -->
 
 </body>
 </html>
+<!-- Localized -->
